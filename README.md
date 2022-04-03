@@ -28,7 +28,7 @@ List Pokemon
 7. By clicking the pokemon image on the card, user can view the pokemon details in new page having the back button link to the home page
 
 The main goal this task is to access the funcationality as per the requirement, code quality, software engineering and testing.
-There is still a lot of scope of improvement the application, with the limited time for the application to built the best possible result is shown.
+There is still a lot of scope of improvement the application, but with the limited time for the application to built the best possible result is shown.
 
 ## Stack
 

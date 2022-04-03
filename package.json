@@ -1,6 +1,6 @@
 {
-  "name": "pokemon-listing",
-  "version": "0.1.0",
+  "name": "list-pokemon",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/cli": "^7.15.7",
