@@ -1,74 +1,36 @@
-# Pokemon listing project is created in Reactjs
+## Project Owner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Prakhyat Gailani
 
-## Available Scripts
+## Project Title
 
-In the project directory, you can run:
+List Pokemon
 
-### `npm start`
+## Dependencies and steps on how to install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Project is created in ReactJs library (Front-End)
+2. All the dependencies and modules are mentioned in package.json file
+3. Open `list pokemon` folder in VScode editor or any editor of your choice
+4. Open Terminal
+5. Type `cd list pokemon` command if your terminal is not pointed in list pokemon folder
+6. Run `npm install` command which will create 'node_modules' installing required packages to run the Front-end
+7. Type `npm run start` command and it will run the application on `localhost:3000`
+8. Type `npm run test` command in the terminal and it will run the testcases within the application
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About the application
 
-### `npm test`
+1. This is a responsive app, when started user is able to see the pokemon list in the pagination format.
+2. There will be 10 pokemon cards per page. Currently, the limit is set for first 20 pokemon list data.
+3. User can sort the pokemon cards w.r.t to `Name`, `Weight`, `Height` by clicking the respective buttons.
+4. To show the number of cards per page select the number from dropdown list. Currently, max limit is set to `20`.
+5. To search, enter the pokemon name in the search and list will be filtered w.r.t characters entered in the search text box.
+6. If the user does refresh the page the display of the cards is not reset.
+7. By clicking the pokemon image on the card, user can view the pokemon details in new page having the back button link to the home page
 
-Launches the test runner in the interactive watch mode.\
-Unit testing is done using Jest and Enzyme.\
-Test Cases are written only for App.js, getresponse.js, pokemonDetails.js.\
-Above test cases are basic and important testing for data fetching and presenting data on site.\
-Rest of the files are ignored for test and code coverage.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The main goal this task is to access the funcationality as per the requirement, code quality, software engineering and testing.
+There is still a lot of scope of improvement the application, with the limited time for the application to built the best possible result is shown.
 
-### `npm run build`
+## Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Languages: HTML5, CSS3, JavaScript (ES6)
+- Libraries: ReactJs, Jest
